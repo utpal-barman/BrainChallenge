@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.ac.ruet.memorychallenge.HelpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:drawableLeft="@drawable/help"
+        android:id="@+id/textView_h_help"
+        android:textSize="25sp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints,RtlHardcoded"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="69dp"
+        android:text="@string/help_desc"
+        android:id="@+id/textView_help_des"
+        android:textColor="#021a08"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_h_help"
+        app:layout_constraintVertical_bias="0.39"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/textView_h_help"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.6" />
+
+    <ImageView
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/pic_help"
+        android:contentDescription="@string/picture_of_help_info"
+        android:layout_marginStart="32dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView_help_des"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="32dp"
+        android:layout_width="100dp"
+        app:layout_constraintTop_toTopOf="@+id/textView_help_des" />
+
+    <Button
+        android:layout_height="48dp"
+        android:text="@string/back"
+        android:id="@+id/button_back"
+        android:onClick="onClick_helpBack"
+        android:background="@drawable/btn_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_help_des"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.39"
+        android:layout_width="150dp" />
+
+</android.support.constraint.ConstraintLayout>

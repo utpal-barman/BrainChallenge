@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Brain Challenge</string>
+    <string name="version_code">1.0</string>
+    <string name="action_settings">সেটিং</string>
+
+    <string name="regular">শব্দ সাজাও</string>
+    <string name="fun">শব্দজট খেলা</string>
+    <string name="story">গল্প মিলাও</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="level1">লেভেল ১</string>
+    <string name="level2">লেভেল ২</string>
+    <string name="level3">লেভেল ৩</string>
+    <string name="main_menu">মূল মেন্যু</string>
+    <string name="help">সাহায্য</string>
+    <string name="exit">exitয</string>
+    <string name="_0">0</string>
+    <string name="_100">100</string>
+    <string name="help_desc">এখানে কিছু লেখা থাকবে যা ইউজারকে গেইম সম্পর্কে তথ্য দিবে। এই গেইমটি কিভাবে খেলতে হবে তার একটি নির্দেশনা থাকবে। লেখাটি খুব সংক্ষিপ্ত এবং Eye catching হবে।</string>
+    <string name="picture_of_help_info">Picture of Help info</string>
+    <string name="back">ফিরে যান</string>
+    <string name="game_over">Game Over</string>
+    <string name="_0points">0</string>
+    <string name="your_score">আপনার স্কোরঃ</string>
+    <string name="description_about_score">Description about score</string>
+    <string name="brain_is_loading">Brain is loading …</string>
+    <string name="game_logo_title">শব্দ নিয়ে বুদ্ধির খেলা</string>
+    <string name="dot_dot_dot">- - -</string>
+    <string name="blank_text"> </string>
+
+</resources>

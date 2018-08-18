@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bd.ac.ruet.memorychallenge.MainMenuActivity"
+    tools:showIn="@layout/activity_main_menu"
+    android:background="@drawable/background_land">
+
+    <Button
+        android:text="@string/fun"
+        android:id="@+id/button_fun"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:onClick="onClick_fun"
+        android:layout_height="40dp"
+        android:layout_width="140dp" />
+
+    <Button
+        android:text="@string/story"
+        android:id="@+id/button_storymode"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/button_fun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:onClick="onClick_story"
+        android:layout_height="40dp"
+        android:layout_width="140dp" />
+
+    <Button
+        android:text="@string/regular"
+        android:id="@+id/button_regular"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="22dp"
+        android:textSize="18sp"
+        android:onClick="onClick_regular"
+        android:layout_height="40dp"
+        android:layout_width="140dp"
+        android:layout_above="@+id/button_fun"
+        android:layout_alignLeft="@+id/button_fun"
+        android:layout_alignStart="@+id/button_fun" />
+</RelativeLayout>
